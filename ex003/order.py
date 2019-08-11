@@ -11,7 +11,7 @@ class NumberType:
         else:
             raise ValueError('Value should be bigger than 0')
 
-            
+
 class Order:
     quantity = NumberType()  # it's a descriptor
     price = NumberType()  # it's a descriptor
